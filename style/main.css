@@ -16,6 +16,7 @@ html, body {
 
 body {
 	max-height: 100vh;
+	max-width: 100vh;
 	background: #f2eac8;
 	font-family: 'Roboto', sans-serif;
 }
@@ -37,7 +38,7 @@ a {
 .board {
 	top: 50%;
     left: 50%;
-    position: relative;
+    position: absolute;
 }
 
 .surface {
